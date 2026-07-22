@@ -1,0 +1,17 @@
+services:
+  ssh-honeypot:
+    build: .
+    container_name: ssh-honeypot
+    restart: unless-stopped
+    ports:
+      - "2222:2222"
+    volumes:
+      - ssh_honeypot_data:/app/data
+    read_only: true
+    tmpfs:
+      - /tmp
+    security_opt:
+      - no-new-privileges:true
+
+volumes:
+  ssh_honeypot_data:
