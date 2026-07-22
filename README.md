@@ -915,8 +915,4 @@ Before submitting a PR, make sure:
 
 ## License
 
-Add a license file before publishing if you want others to use the project.
-
-For a simple permissive license, you can use MIT.
-
-Without a license, others may not have explicit rights to use, modify, or redistribute the code.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
