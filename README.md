@@ -1,6 +1,6 @@
 # SSH Honeypot
 
-A small, interactive SSH honeypot written in Python. It accepts almost any SSH authentication attempt and gives attackers a fake interactive shell. All commands are logged for analysis.
+A interactive SSH honeypot written in Python. It accepts almost any SSH authentication attempt and gives attackers a fake interactive shell. All commands are logged for analysis.
 
 This project is intended for education, research, and defensive security use cases.
 
